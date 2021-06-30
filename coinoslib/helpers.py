@@ -13,9 +13,6 @@ def fetch(method: str='POST', path: str='/', json=None) -> object:
     else:
         raise Exception('Request failed.')
 
-def address(network: str='bitcoin') -> dict:
-    return fetch('GET', f'/address?network={network}&type=bech32').json()
-
 def addres_is_internal(address: str) -> bool:
     return fetch('GET', f'/isInternal?address={address}').json()
 

@@ -6,7 +6,7 @@ def create(username: str='', password: str='') -> dict:
 
 def login(username: str='', password: str='', token=None) -> dict:
     if len(username) == 0 and len(password) == 0:
-        return fetch('GET', '/login') 
+        return fetch('GET', '/login').json()
         
     return fetch(
         'POST', '/taboggan', json={'username': username, 'password': password, 'token': token}).json()

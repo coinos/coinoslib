@@ -1,6 +1,6 @@
 from .helpers import fetch, what_is_fee
 
-def address() -> object:
+def address() -> dict:
     return fetch('GET', '/address?network=liquid&type=bech32').json()
 
 def withdraw(

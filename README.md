@@ -10,6 +10,7 @@ Coinos.io is a web custody service that allows you to receive and send Bitcoin p
   - [x] Create new account
   - [x] Logout account
   - [ ] Check Balance
+  - [ ] Catch all transactions
 - [ ] Wallet
   - [x] Create new invoice
   - [x] Generate new address

@@ -71,7 +71,7 @@ lnbc10n1psdey60pp55t0xp5ewqsptmtfd2agcsau82p2k74tjeq5rag06zn9phpuwrcnsdq5fpjkcmr
 </details>
 
 <details>
-<summary>Step 2: Making payment</summary>
+<summary>Step 4: Making payment</summary>
 
 ```python
 >>> liquid_withdraw = liquid.withdraw(

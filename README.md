@@ -20,7 +20,10 @@ python setup install
 >>> from coinoslib import Coinoslib 
 >>>
 >>> coinoslib = Coinoslib(<token>)
->>>
+```
+
+## Lightning Network
+```python
 >>> # Add a new invoice.
 >>> coinoslib.add_invoice(1, memo='Hello, word!')
 lnbc10n1ps53ertpp5xkh2kj5xx3hwxtv0gvykjwnwee6t6dlk2crdj0uen6svqtenpenqdq5fpjkcmr09ss8wmmjvssscqzpgxqyz5vqsp5edas0dg8gqevk4ey0j6yg34a9ec9gn7v5cf5zlc5kq0x0ec0ngsq9qyyssqq28uy663nqw0em2fyzcagx6g0t4ukm2hx4wsfj7rzmhrakuggrc4q5jrd652satnxy0k93w8cj0wn62skslamf3yfr50duwejvqkvkgp8f0yjv

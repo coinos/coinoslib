@@ -21,6 +21,11 @@ python setup install
 >>>
 >>> coinoslib = Coinoslib(<token>)
 ```
+## Liquid Network
+Coming soon
+
+## Bitcoin Mainchain
+Coming soon
 
 ## Lightning Network
 ```python
